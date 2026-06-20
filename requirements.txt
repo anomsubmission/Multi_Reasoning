@@ -1,0 +1,11 @@
+# Core (always needed)
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+datasets>=2.18
+
+# Choose ONE inference backend:
+#   OpenAI API / compatible endpoints (Together, Fireworks, vLLM, etc.)
+openai>=1.0
+#   Anthropic API
+# anthropic>=0.25
